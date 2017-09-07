@@ -16,6 +16,8 @@ class EmployeeLeaveController extends Controller
 {
 
 	public function leave_listing(){
+		echo "make change";
+		echo "new changeas";
 		$leave_count_by_cat =$leave_rule =$leavesData = $error =null;
 		if(in_array(1, role_id())){
 			$error = "You can not view leave.";
