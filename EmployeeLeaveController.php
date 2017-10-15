@@ -16,6 +16,7 @@ class EmployeeLeaveController extends Controller
 {
 
 	public function leave_listing(){
+		echo "made new branch";
 		echo "make change";
 		echo "new changeas";
 		$leave_count_by_cat =$leave_rule =$leavesData = $error =null;
