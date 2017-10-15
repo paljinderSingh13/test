@@ -16,6 +16,7 @@ class EmployeeLeaveController extends Controller
 {
 
 	public function leave_listing(){
+		echoo "edit"
 		echo "made new branch";
 		echo "make change";
 		echo "new changeas";
